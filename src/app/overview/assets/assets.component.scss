@@ -1,0 +1,24 @@
+mat-card.assets {
+  mat-icon {
+    vertical-align: middle;
+    margin-right: 0.5rem;
+  }
+
+  .no-assets--text {
+    position: relative;
+    top: 2px;
+  }
+}
+
+table {
+  width: 100%;
+  .asset-logo {
+    width: 1.2rem;
+    vertical-align: text-bottom;
+    margin-right: 0.3rem;
+  }
+  .mat-row:hover {
+    background-color: rgba(200, 200, 200, 0.2);
+    cursor: pointer;
+  }
+}
